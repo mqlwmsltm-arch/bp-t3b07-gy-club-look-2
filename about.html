@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-noir-gold">
+    <title>가양 클럽 정보 | 노블레스 클럽 & 라운지 | 프리미엄 멤버십 안내</title>
+    <meta name="description" content="가양 프리미엄 클럽 상세 정보: 연회비, 드레스 코드, 시설 안내, 회원 혜택. 가양 클럽의 모든 것을 확인하세요. 2025 시즌 멤버십 모집 중.">
+    <meta name="keywords" content="가양 클럽, 가양 클럽 멤버십, 가양 클럽 연회비, 가양 클럽 시설, 노블레스 클럽 가양, 가양 클럽 정보, 가양 클럽 회원 혜택">
+    <link rel="canonical" href="https://t3b07-gy-club-look-2.vercel.app/info">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="가양 클럽 정보 | 노블레스 클럽 & 라운지">
+    <meta property="og:description" content="가양 프리미엄 클럽 상세 정보: 연회비, 드레스 코드, 시설 안내, 회원 혜택. 가양 클럽의 모든 것을 확인하세요.">
+    <meta property="og:image" content="https://t3b07-gy-club-look-2.vercel.app/og-info.jpg">
+    <meta property="og:url" content="https://t3b07-gy-club-look-2.vercel.app/info">
+    <meta name="twitter:card" content="summary_large_image">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; font-size: 16px; }
+        body { font-family: 'Noto Serif KR', 'Georgia', 'Times New Roman', serif; background: #0a0a0a; color: #e0d5c1; line-height: 1.8; -webkit-font-smoothing: antialiased; }
+        a { color: #c9a84c; text-decoration: none; transition: color 0.3s ease; }
+        a:hover { color: #e8d48b; }
+        img { max-width: 100%; height: auto; display: block; }
+        h1, h2, h3, h4 { font-weight: 300; letter-spacing: 0.05em; color: #f5f0e8; }
+        h1 { font-size: 2.8rem; line-height: 1.2; margin-bottom: 1.5rem; }
+        h2 { font-size: 2rem; line-height: 1.3; margin-bottom: 1.2rem; border-bottom: 1px solid rgba(201, 168, 76, 0.3); padding-bottom: 0.5rem; }
+        h3 { font-size: 1.4rem; line-height: 1.4; margin-bottom: 0.8rem; }
+        p { margin-bottom: 1.2rem; font-size: 1.05rem; }
+        .drop-cap::first-letter { font-size: 3.5rem; float: left; line-height: 0.8; margin-right: 0.5rem; color: #c9a84c; font-weight: 700; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
+        @media (max-width: 768px) { .container { padding: 0 1rem; } h1 { font-size: 2rem; } h2 { font-size: 1.5rem; } }
+
+        /* Navigation */
+        nav { position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; background: rgba(10, 10, 10, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(201, 168, 76, 0.2); }
+        .nav-inner { display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; max-width: 1200px; margin: 0 auto; }
+        .nav-logo { font-size: 1.2rem; font-weight: 300; letter-spacing: 0.2em; color: #c9a84c; text-transform: uppercase; }
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { font-size: 0.9rem; letter-spacing: 0.1em; color: #e0d5c1; }
+        .nav-links a:hover { color: #c9a84c; }
+        .hamburger-menu { display: none; flex-direction: column; cursor: pointer; background: none; border: none; padding: 0.5rem; }
+        .hamburger-menu span { width: 28px; height: 2px; background: #c9a84c; margin: 4px 0; transition: 0.3s; }
+        .tel-link { color: #c9a84c; font-size: 0.9rem; letter-spacing: 0.05em; display: inline-flex; align-items: center; gap: 0.3rem; }
+        @media (max-width: 768px) {
+            .hamburger-menu { display: flex; }
+            .nav-links { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: rgba(10, 10, 10, 0.98); flex-direction: column; padding: 1rem 2rem; gap: 1rem; }
+            .nav-links.active { display: flex; }
+        }
+
+        /* Hero */
+        .hero { padding: 10rem 0 5rem; text-align: center; background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%); }
+        .hero h1 { font-size: 3.2rem; margin-bottom: 0.5rem; }
+        .hero .subtitle { font-size: 1.2rem; color: #c9a84c; letter-spacing: 0.15em; margin-bottom: 2rem; }
+        .hero .divider { width: 60px; height: 2px; background: #c9a84c; margin: 0 auto 2rem; }
+
+        /* Section */
+        .section { padding: 5rem 0; }
+        .section-alt { background: #111111; }
+
+        /* Grid */
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+        .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+        @media (max-width: 768px) { .grid-2, .grid-3 { grid-template-columns: 1fr; gap: 2rem; } }
+
+        /* Card */
+        .card { background: #1a1a1a; border: 1px solid rgba(201, 168, 76, 0.15); padding: 2rem; border-radius: 0; transition: border-color 0.3s ease; }
+        .card:hover { border-color: rgba(201, 168, 76, 0.5); }
+        .card h3 { color: #c9a84c; }
+        .card .price { font-size: 1.8rem; color: #f5f0e8; margin: 1rem 0; }
+        .card .price span { font-size: 1rem; color: #c9a84c; }
+
+        /* List */
+        .info-list { list-style: none; }
+        .info-list li { padding: 0.8rem 0; border-bottom: 1px solid rgba(201, 168, 76, 0.1); display: flex; gap: 1rem; }
+        .info-list li:last-child { border-bottom: none; }
+        .info-list .label { color: #c9a84c; min-width: 100px; font-weight: 500; }
+        .info-list .value { color: #e0d5c1; }
+
+        /* FAQ */
+        .faq-item { margin-bottom: 1.5rem; border-bottom: 1px solid rgba(201, 168, 76, 0.1); padding-bottom: 1.5rem; }
+        .faq-question { font-weight: 500; color: #c9a84c; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+        .faq-answer { margin-top: 0.8rem; color: #b0a890; line-height: 1.7; }
+
+        /* Table */
+        .info-table { width: 100%; border-collapse: collapse; margin: 2rem 0; }
+        .info-table th, .info-table td { padding: 1rem; text-align: left; border-bottom: 1px solid rgba(201, 168, 76, 0.15); }
+        .info-table th { color: #c9a84c; font-weight: 400; letter-spacing: 0.1em; background: #111; }
+        .info-table td { color: #e0d5c1; }
+
+        /* CTA */
+        .cta-box { background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%); border: 1px solid #c9a84c; padding: 3rem; text-align: center; margin: 3rem 0; }
+        .cta-box h2 { border-bottom: none; margin-bottom: 1rem; }
+        .cta-button { display: inline-block; padding: 1rem 3rem; background: #c9a84c; color: #0a0a0a; font-size: 1rem; letter-spacing: 0.15em; border: none; cursor: pointer; transition: all 0.3s ease; font-weight: 500; }
+        .cta-button:hover { background: #e8d48b; color: #0a0a0a; }
+
+        /* Footer */
+        footer { padding: 3rem 0; border-top: 1px solid rgba(201, 168, 76, 0.15); text-align: center; color: #666; font-size: 0.85rem; }
+        footer a { color: #c9a84c; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero { padding: 8rem 0 3rem; }
+            .hero h1 { font-size: 2.2rem; }
+            .cta-box { padding: 2rem 1rem; }
+            .info-table { font-size: 0.9rem; }
+            .info-table th, .info-table td { padding: 0.6rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">노블레스 클럽</a>
+            <button class="hamburger-menu" aria-label="메뉴 열기">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">룩북</a></li>
+                <li><a href="/info">정보</a></li>
+                <li><a href="/gallery">갤러리</a></li>
+                <li><a href="/review">리뷰</a></li>
+                <li><a href="tel:02-1234-5678" class="tel-link">02-1234-5678</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>가양 클럽 정보</h1>
+            <p class="subtitle">프리미엄 멤버십의 모든 것</p>
+            <div class="divider"></div>
+            <p class="drop-cap">가양 클럽은 단순한 공간을 넘어, 서울 서북권 최상위 프리미엄 멤버십 클럽으로 자리매김했습니다. 2025년 기준 연간 300회 이상의 문화 행사와 비즈니스 네트워킹이 이루어지는 이곳은 엄격한 심사제도를 통해 회원의 품격을 유지합니다.</p>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2>멤버십 등급 안내</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>클래식</h3>
+                    <div class="price">₩3,500,000 <span>/ 연</span></div>
+                    <ul class="info-list">
+                        <li><span class="label">시설 이용</span><span class="value">주 2회</span></li>
+                        <li><span class="label">게스트</span><span class="value">월 2인</span></li>
+                        <li><span class="label">주차</span><span class="value">4시간</span></li>
+                        <li><span class="label">이벤트</span><span class="value">기본 초청</span></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>프리미엄</h3>
+                    <div class="price">₩7,500,000 <span>/ 연</span></div>
+                    <ul class="info-list">
+                        <li><span class="label">시설 이용</span><span class="value">무제한</span></li>
+                        <li><span class="label">게스트</span><span class="value">월 8인</span></li>
+                        <li><span class="label">주차</span><span class="value">무제한</span></li>
+                        <li><span class="label">이벤트</span><span class="value">VIP 초청</span></li>
+                        <li><span class="label">라운지</span><span class="value">전용 라운지</span></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>시그니처</h3>
+                    <div class="price">₩15,000,000 <span>/ 연</span></div>
+                    <ul class="info-list">
+                        <li><span class="label">시설 이용</span><span class="value">무제한 + 패밀리</span></li>
+                        <li><span class="label">게스트</span><span class="value">무제한</span></li>
+                        <li><span class="label">주차</span><span class="value">전용 발레</span></li>
+                        <li><span class="label">이벤트</span><span class="value">커스텀 초청</span></li>
+                        <li><span class="label">라운지</span><span class="value">시그니처 라운지</span></li>
+                        <li><span class="label">컨시어지</span><span class="value">24시간 전담</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cta-box">
+                <h2>프리미엄 멤버십 상담</h2>
+                <p>2025 시즌 한정 프리미엄 멤버십이 오픈되었습니다. 전담 컨시어지가 맞춤형 안내를 제공합니다.</p>
+                <a href="tel:02-1234-5678" class="cta-button">02-1234-5678</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section class="section">
+        <div class="container">
+            <h2>시설 및 서비스</h2>
+            <div class="grid-2">
+                <div>
+                    <h3>주요 시설</h3>
+                    <ul class="info-list">
+                        <li><span class="label">메인 라운지</span><span class="value">250석, 24시간 운영</span></li>
+                        <li><span class="label">다이닝 룸</span><span class="value">프라이빗 4실, 공개 1실</span></li>
+                        <li><span class="label">와인 셀라</span><span class="value">2,000여종 보유</span></li>
+                        <li><span class="label">시가 라운지</span><span class="value">환기 시스템 완비</span></li>
+                        <li><span class="label">비즈니스 센터</span><span class="value">회의실 3실, 비서 서비스</span></li>
+                        <li><span class="label">피트니스</span><span class="value">개인 트레이너 매칭</span></li>
+                    </ul>
+                </div
+</body>
+</html>
