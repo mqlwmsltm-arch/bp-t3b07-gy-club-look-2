@@ -3,200 +3,269 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가양동 클럽 상세 정보 및 방문 가이드 | 로컬 가이드 김서윤</title>
+    <meta name="description" content="가양동과 인접 지역 (구로, 성동) 의 클럽 문화를 비교 분석한 전문 가이드입니다. 인원 수, 목적, 이동 시간 등을 고려하여 최적의 매장을 빠르게 찾는 선택 기준을 제공합니다.">
+    <meta name="keywords" content="가양 클럽, 가양 동 클럽, 가양 룩북, 구로 클럽, 성동 클럽, 밤문화 추천, 가양 정보">
+    <meta name="author" content="로컬 가이드 김서윤">
     <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-noir-gold">
-    <title>가양 클럽 정보 | 노블레스 클럽 & 라운지 | 프리미엄 멤버십 안내</title>
-    <meta name="description" content="가양 프리미엄 클럽 상세 정보: 연회비, 드레스 코드, 시설 안내, 회원 혜택. 가양 클럽의 모든 것을 확인하세요. 2025 시즌 멤버십 모집 중.">
-    <meta name="keywords" content="가양 클럽, 가양 클럽 멤버십, 가양 클럽 연회비, 가양 클럽 시설, 노블레스 클럽 가양, 가양 클럽 정보, 가양 클럽 회원 혜택">
+    <meta name="bpaas-design-theme" content="kr-ledger-cool">
     <link rel="canonical" href="https://gayang-club-review.program-school.online/about.html">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="가양 클럽 정보 | 노블레스 클럽 & 라운지">
-    <meta property="og:description" content="가양 프리미엄 클럽 상세 정보: 연회비, 드레스 코드, 시설 안내, 회원 혜택. 가양 클럽의 모든 것을 확인하세요.">
-    <meta property="og:image" content="https://t3b07-gy-club-look-2.vercel.app/og-info.jpg">
-    <meta property="og:url" content="https://gayang-club-review.program-school.online/about.html">
-    <meta name="twitter:card" content="summary_large_image">
-    <style>
-        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; font-size: 16px; }
-        body { font-family: 'Noto Serif KR', 'Georgia', 'Times New Roman', serif; background: #0a0a0a; color: #e0d5c1; line-height: 1.8; -webkit-font-smoothing: antialiased; }
-        a { color: #c9a84c; text-decoration: none; transition: color 0.3s ease; }
-        a:hover { color: #e8d48b; }
-        img { max-width: 100%; height: auto; display: block; }
-        h1, h2, h3, h4 { font-weight: 300; letter-spacing: 0.05em; color: #f5f0e8; }
-        h1 { font-size: 2.8rem; line-height: 1.2; margin-bottom: 1.5rem; }
-        h2 { font-size: 2rem; line-height: 1.3; margin-bottom: 1.2rem; border-bottom: 1px solid rgba(201, 168, 76, 0.3); padding-bottom: 0.5rem; }
-        h3 { font-size: 1.4rem; line-height: 1.4; margin-bottom: 0.8rem; }
-        p { margin-bottom: 1.2rem; font-size: 1.05rem; }
-        .drop-cap::first-letter { font-size: 3.5rem; float: left; line-height: 0.8; margin-right: 0.5rem; color: #c9a84c; font-weight: 700; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
-        @media (max-width: 768px) { .container { padding: 0 1rem; } h1 { font-size: 2rem; } h2 { font-size: 1.5rem; } }
-
-        /* Navigation */
-        nav { position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; background: rgba(10, 10, 10, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(201, 168, 76, 0.2); }
-        .nav-inner { display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; max-width: 1200px; margin: 0 auto; }
-        .nav-logo { font-size: 1.2rem; font-weight: 300; letter-spacing: 0.2em; color: #c9a84c; text-transform: uppercase; }
-        .nav-links { display: flex; gap: 2rem; list-style: none; }
-        .nav-links a { font-size: 0.9rem; letter-spacing: 0.1em; color: #e0d5c1; }
-        .nav-links a:hover { color: #c9a84c; }
-        .hamburger-menu { display: none; flex-direction: column; cursor: pointer; background: none; border: none; padding: 0.5rem; }
-        .hamburger-menu span { width: 28px; height: 2px; background: #c9a84c; margin: 4px 0; transition: 0.3s; }
-        .tel-link { color: #c9a84c; font-size: 0.9rem; letter-spacing: 0.05em; display: inline-flex; align-items: center; gap: 0.3rem; }
-        @media (max-width: 768px) {
-            .hamburger-menu { display: flex; }
-            .nav-links { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: rgba(10, 10, 10, 0.98); flex-direction: column; padding: 1rem 2rem; gap: 1rem; }
-            .nav-links.active { display: flex; }
-        }
-
-        /* Hero */
-        .hero { padding: 10rem 0 5rem; text-align: center; background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%); }
-        .hero h1 { font-size: 3.2rem; margin-bottom: 0.5rem; }
-        .hero .subtitle { font-size: 1.2rem; color: #c9a84c; letter-spacing: 0.15em; margin-bottom: 2rem; }
-        .hero .divider { width: 60px; height: 2px; background: #c9a84c; margin: 0 auto 2rem; }
-
-        /* Section */
-        .section { padding: 5rem 0; }
-        .section-alt { background: #111111; }
-
-        /* Grid */
-        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
-        .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
-        @media (max-width: 768px) { .grid-2, .grid-3 { grid-template-columns: 1fr; gap: 2rem; } }
-
-        /* Card */
-        .card { background: #1a1a1a; border: 1px solid rgba(201, 168, 76, 0.15); padding: 2rem; border-radius: 0; transition: border-color 0.3s ease; }
-        .card:hover { border-color: rgba(201, 168, 76, 0.5); }
-        .card h3 { color: #c9a84c; }
-        .card .price { font-size: 1.8rem; color: #f5f0e8; margin: 1rem 0; }
-        .card .price span { font-size: 1rem; color: #c9a84c; }
-
-        /* List */
-        .info-list { list-style: none; }
-        .info-list li { padding: 0.8rem 0; border-bottom: 1px solid rgba(201, 168, 76, 0.1); display: flex; gap: 1rem; }
-        .info-list li:last-child { border-bottom: none; }
-        .info-list .label { color: #c9a84c; min-width: 100px; font-weight: 500; }
-        .info-list .value { color: #e0d5c1; }
-
-        /* FAQ */
-        .faq-item { margin-bottom: 1.5rem; border-bottom: 1px solid rgba(201, 168, 76, 0.1); padding-bottom: 1.5rem; }
-        .faq-question { font-weight: 500; color: #c9a84c; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
-        .faq-answer { margin-top: 0.8rem; color: #b0a890; line-height: 1.7; }
-
-        /* Table */
-        .info-table { width: 100%; border-collapse: collapse; margin: 2rem 0; }
-        .info-table th, .info-table td { padding: 1rem; text-align: left; border-bottom: 1px solid rgba(201, 168, 76, 0.15); }
-        .info-table th { color: #c9a84c; font-weight: 400; letter-spacing: 0.1em; background: #111; }
-        .info-table td { color: #e0d5c1; }
-
-        /* CTA */
-        .cta-box { background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%); border: 1px solid #c9a84c; padding: 3rem; text-align: center; margin: 3rem 0; }
-        .cta-box h2 { border-bottom: none; margin-bottom: 1rem; }
-        .cta-button { display: inline-block; padding: 1rem 3rem; background: #c9a84c; color: #0a0a0a; font-size: 1rem; letter-spacing: 0.15em; border: none; cursor: pointer; transition: all 0.3s ease; font-weight: 500; }
-        .cta-button:hover { background: #e8d48b; color: #0a0a0a; }
-
-        /* Footer */
-        footer { padding: 3rem 0; border-top: 1px solid rgba(201, 168, 76, 0.15); text-align: center; color: #666; font-size: 0.85rem; }
-        footer a { color: #c9a84c; }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .hero { padding: 8rem 0 3rem; }
-            .hero h1 { font-size: 2.2rem; }
-            .cta-box { padding: 2rem 1rem; }
-            .info-table { font-size: 0.9rem; }
-            .info-table th, .info-table td { padding: 0.6rem; }
-        }
-    </style>
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "가양동 클럽 상세 정보 및 방문 가이드",
+      "description": "가양동과 인접 지역의 클럽 문화를 비교 분석한 전문 가이드입니다.",
+      "author": {
+        "@type": "Person",
+        "name": "로컬 가이드 김서윤"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://gayang-club-review.program-school.online/"
+      }
+    }
+    </script>
+  <meta property="og:url" content="https://gayang-club-review.program-school.online/about.html">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav>
+
+<!-- Navigation -->
+<nav class="nav-present">
+    <div class="container">
         <div class="nav-inner">
-            <a href="/" class="nav-logo">노블레스 클럽</a>
-            <button class="hamburger-menu" aria-label="메뉴 열기">
-                <span></span><span></span><span></span>
-            </button>
-            <ul class="nav-links">
-                <li><a href="/">룩북</a></li>
-                <li><a href="/info">정보</a></li>
-                <li><a href="/gallery">갤러리</a></li>
-                <li><a href="/review">리뷰</a></li>
-                <li><a href="tel:02-1234-5678" class="tel-link">02-1234-5678</a></li>
+            <div class="logo">로컬 가이드 김서윤</div>
+            <ul class="nav-menu">
+                <li><a href="/">홈</a></li>
+                <li><a href="/guide">가이드북</a></li>
+                <li><a href="/contact">문의하기</a></li>
             </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h1>가양 클럽 정보</h1>
-            <p class="subtitle">프리미엄 멤버십의 모든 것</p>
-            <div class="divider"></div>
-            <p class="drop-cap">가양 클럽은 단순한 공간을 넘어, 서울 서북권 최상위 프리미엄 멤버십 클럽으로 자리매김했습니다. 2025년 기준 연간 300회 이상의 문화 행사와 비즈니스 네트워킹이 이루어지는 이곳은 엄격한 심사제도를 통해 회원의 품격을 유지합니다.</p>
-        </div>
-    </section>
-
-    <!-- Membership Section -->
-    <section class="section section-alt">
-        <div class="container">
-            <h2>멤버십 등급 안내</h2>
-            <div class="grid-3">
-                <div class="card">
-                    <h3>클래식</h3>
-                    <div class="price">₩3,500,000 <span>/ 연</span></div>
-                    <ul class="info-list">
-                        <li><span class="label">시설 이용</span><span class="value">주 2회</span></li>
-                        <li><span class="label">게스트</span><span class="value">월 2인</span></li>
-                        <li><span class="label">주차</span><span class="value">4시간</span></li>
-                        <li><span class="label">이벤트</span><span class="value">기본 초청</span></li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h3>프리미엄</h3>
-                    <div class="price">₩7,500,000 <span>/ 연</span></div>
-                    <ul class="info-list">
-                        <li><span class="label">시설 이용</span><span class="value">무제한</span></li>
-                        <li><span class="label">게스트</span><span class="value">월 8인</span></li>
-                        <li><span class="label">주차</span><span class="value">무제한</span></li>
-                        <li><span class="label">이벤트</span><span class="value">VIP 초청</span></li>
-                        <li><span class="label">라운지</span><span class="value">전용 라운지</span></li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h3>시그니처</h3>
-                    <div class="price">₩15,000,000 <span>/ 연</span></div>
-                    <ul class="info-list">
-                        <li><span class="label">시설 이용</span><span class="value">무제한 + 패밀리</span></li>
-                        <li><span class="label">게스트</span><span class="value">무제한</span></li>
-                        <li><span class="label">주차</span><span class="value">전용 발레</span></li>
-                        <li><span class="label">이벤트</span><span class="value">커스텀 초청</span></li>
-                        <li><span class="label">라운지</span><span class="value">시그니처 라운지</span></li>
-                        <li><span class="label">컨시어지</span><span class="value">24시간 전담</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="cta-box">
-                <h2>프리미엄 멤버십 상담</h2>
-                <p>2025 시즌 한정 프리미엄 멤버십이 오픈되었습니다. 전담 컨시어지가 맞춤형 안내를 제공합니다.</p>
-                <a href="tel:02-1234-5678" class="cta-button">02-1234-5678</a>
+<!-- Hero Section -->
+<header class="hero-section">
+    <div class="container">
+        <div class="hero-content">
+            <h1>가양동 클럽 정보 및 지역별 비교 분석</h1>
+            <p class="lead-text">
+                단순히 '가양동'이라는 이름을 넘어, 주변과 연결된 도시적 맥락에서 이 공간들을 바라보겠습니다. 
+                강남의 확장성과 구로의 생활밀착형 분위기가 공존하는 가양동은 밤문화의 특성을 가진 독특한 지역입니다.
+                오늘 소개할 정보들은 단순한 리뷰가 아니라, 방문 목적에 맞춰 최적의 선택을 할 수 있도록 설계된 체크리스트입니다.
+            </p>
+            <div class="hero-buttons">
+                <a href="#details" class="btn-primary">상세 정보 보기</a>
+                <a href="#faq" class="btn-secondary">자주 묻는 질문</a>
             </div>
         </div>
-    </section>
+    </div>
+</header>
 
-    <!-- Facilities Section -->
-    <section class="section">
-        <div class="container">
-            <h2>시설 및 서비스</h2>
-            <div class="grid-2">
-                <div>
-                    <h3>주요 시설</h3>
-                    <ul class="info-list">
-                        <li><span class="label">메인 라운지</span><span class="value">250석, 24시간 운영</span></li>
-                        <li><span class="label">다이닝 룸</span><span class="value">프라이빗 4실, 공개 1실</span></li>
-                        <li><span class="label">와인 셀라</span><span class="value">2,000여종 보유</span></li>
-                        <li><span class="label">시가 라운지</span><span class="value">환기 시스템 완비</span></li>
-                        <li><span class="label">비즈니스 센터</span><span class="value">회의실 3실, 비서 서비스</span></li>
-                        <li><span class="label">피트니스</span><span class="value">개인 트레이너 매칭</span></li>
-                    </ul>
-                </div
+<!-- Main Content -->
+<main id="details" class="content-area">
+    <div class="container">
+        
+        <!-- Section 1: 지역적 맥락과 접근성 -->
+        <section class="grid-2col">
+            <div class="col-left">
+                <h2>01. 가양동, 구로, 성동의 밤문화 연결 고리</h2>
+                <p>
+                    많은 분이 '가양동 클럽'이라고 검색할 때, 단순히 그 지역의 이름을 언급하지만 실제로는 강남의 확장된 분위기와 구로의 생활밀착형 특성이 섞여 있습니다. 
+                    가양동은 지하철 2호선과 8호선이 교차하는 지점에 위치하여 접근성이 매우 뛰어납니다. 이는 단순히 '가까움'을 넘어, 
+                    주말 밤에 강남에서 이동해 오는 사람들이나 성동 지역에서 출퇴근 후 찾아오는 사람들의 흐름이 이 지역을 채웁니다.
+                </p>
+                <p>
+                    특히 구로 쪽으로 가깝다는 점은 대중교통 이용 시 편의성을 높여주며, 성동과 가까운 거리로 인해 강남의 밤문화 트렌드가 빠르게 유입됩니다. 
+                    따라서 가양동 클럽은 단순히 '가양'에 있는 공간이 아니라, 이 세 지역이 만나는 지점에서의 특성이 반영된 결과물입니다.
+                </p>
+            </div>
+            <div class="col-right">
+                <h3>핵심 체크 포인트</h3>
+                <ul>
+                    <li><strong>접근성:</strong> 지하철 2/8호선 교차로 인근 위치 확인.</li>
+                    <li><strong>위치적 특징:</strong> 강남의 확장성과 구로의 생활밀착형 분위기 공존.</li>
+                    <li><strong>주요 방문층:</strong> 주말 이동객과 지역 주민 모두 포함.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 2: 방문 목적별 가이드 -->
+        <section class="grid-2col">
+            <div class="col-left">
+                <h2>02. 인원수와 목적에 따른 선택 기준</h2>
+                <p>
+                    어떤 목적으로 방문하시려는지, 혹은 몇 명의 친구들과 함께하실지에 따라 추천 공간의 분위기는 달라집니다. 
+                    소규모 모임 (1~3 명) 이라면 상대적으로 프라이버시를 중요시하는 곳이나, 소음 규정이 엄격한 공간을 선호할 수 있습니다. 
+                    반대로 친구 5~6 명이 모이는 파티를 계획하신다면, 넓은 공간과 개방적인 분위기를 가진 클럽을 선택하는 것이 좋습니다.
+                </p>
+                <p>
+                    방문 목적에 따라 '음악'과 '회식' 중 어떤 것이 더 중요한지도 고려해야 합니다. 
+                    음악을 중심으로 한 곳이라면 DJ 의 퀄리티나 음향 시스템을 확인하고, 회식을 중시한다면 테이블 배치를 여유 있게 갖춘 곳을 선택하는 것이 현명합니다.
+                </p>
+            </div>
+            <div class="col-right">
+                <h3>목적별 추천 포인트</h3>
+                <ul>
+                    <li><strong>소규모 모임:</strong> 프라이버시와 소음 규제 엄격한 공간 선호.</li>
+                    <li><strong>파티/모임:</strong> 넓은 공간과 개방적인 분위기, 테이블 배치 여유 있는 곳.</li>
+                    <li><strong>음악 중심:</strong> DJ 퀄리티와 음향 시스템 확인 필수.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 3: 시간대별 분위기 분석 -->
+        <section class="grid-2col">
+            <div class="col-left">
+                <h2>03. 시간대별 분위기 변화와 준비 사항</h2>
+                <p>
+                    클럽의 분위기는 시간대에 따라 확연히 달라집니다. 오프닝 (오픈) 시간인 저녁 9 시 전후는 아직 사람이 적고, 
+                    음악을 감상하며 여유롭게 분위기를 익히는 시간이 됩니다. 이때는 상대적으로 조용하고 차분한 분위기입니다.
+                </p>
+                <p>
+                    반면 피크타임인 밤 12 시 이후에는 사람들이 가장 많아지며, 에너지가 높은 파티 분위기가 형성됩니다. 
+                    이 시간대는 춤과 음악에 몰입할 수 있지만, 동시에 소음과 혼잡을 감수해야 합니다. 
+                    방문 전 목적에 따라 적절한 시간대를 선택하거나, 미리 예약하는 것이 좋습니다.
+                </p>
+            </div>
+            <div class="col-right">
+                <h3>시간대별 분위기 체크</h3>
+                <ul>
+                    <li><strong>오프닝 (저녁 9 시 전후):</strong> 상대적으로 조용하고 차분한 분위기.</li>
+                    <li><strong>피크타임 (밤 12 시 이후):</strong> 에너지 높은 파티 분위기, 소음과 혼잡 감수.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq-section">
+            <h2>자주 묻는 질문 (FAQ)</h2>
+            
+            <div class="faq-item">
+                <h3>Q. 주차 시설이 있는 곳도 있는지?</h3>
+                <p>A. 가양동 일대에는 대형 주차장이 많지 않지만, 일부 클럽은 인근 유료 주차장이나 소규모 주차 공간을 제공합니다. 방문 전 미리 전화로 확인하는 것이 좋습니다.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Q. 의류 규정이 엄격한가요?</h3>
+                <p>A. 대부분 클럽은 반바지나 운동화 착용 시 입장 제한을 두는 경우가 많습니다. 방문 전 각 매장의 공식 홈페이지나 SNS 를 통해 최신 의류 규정을 확인하세요.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Q. 소음으로 인한 민원이 자주 발생하는가요?</h3>
+                <p>A. 가양동은 주변 주거 밀집 지역과 상업 지역이 혼재되어 있어 소음에 민감할 수 있습니다. 따라서 클럽 내부의 음향 시스템이 잘 갖춰져 있는지 확인하는 것이 좋습니다.</p>
+            </div>
+
+        </section>
+
+    </div>
+</main>
+
+<footer class="footer-section">
+    <div class="container">
+        <div class="footer-content">
+            <h3>로컬 가이드 김서윤</h3>
+            <p>&copy; 2024 로컬 가이드 김서윤. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- CSS DNA: Transparent Ledger + Modern Grid v1 -->
+<style>
+    /* [CSS DNA: Transparent Ledger + Modern Grid v1] */
+    :root {
+        --bg-color: #f4f4f0; /* 연한 베이지/백색 계열 */
+        --text-color: #2c3e50; /* 진한 남색 계열 텍스트 */
+        --accent-color: #e67e22; /* 포인트 컬러 (주황/금색) */
+        --link-color: #3498db; /* 링크 색상 */
+        --font-main: 'Apple System', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        --spacing-unit: 1rem;
+        --container-width: 1200px;
+        --grid-gap: 2rem;
+    }
+
+    /* Reset & Base */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+        font-family: var(--font-main);
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        line-height: 1.6;
+        overflow-x: hidden;
+    }
+
+    /* Layout */
+    .container {
+        width: 90%;
+        max-width: var(--container-width);
+        margin: 0 auto;
+        padding: 0 var(--spacing-unit);
+    }
+
+    .grid-2col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--grid-gap);
+        align-items: start;
+        margin-bottom: 4rem;
+    }
+
+    @media (max-width: 768px) {
+        .grid-2col { grid-template-columns: 1fr; }
+    }
+
+    /* Typography */
+    h1, h2, h3 { color: var(--text-color); line-height: 1.2; margin-bottom: 1rem; }
+    h1 { font-size: 3rem; font-weight: 700; letter-spacing: -0.02em; }
+    h2 { font-size: 2rem; font-weight: 600; border-bottom: 2px solid var(--accent-color); padding-bottom: 0.5rem; display: inline-block;}
+    h3 { font-size: 1.25rem; font-weight: 600; color: var(--text-color); }
+    p { margin-bottom: 1.5rem; font-size: 1.1rem; color: #4a5a6a; }
+    strong { color: var(--text-color); font-weight: 700; }
+
+    /* Hero Section */
+    .hero-section {
+        padding: 6rem 0;
+        background: linear-gradient(135deg, #fff 0%, #f4f4f0 100%);
+        margin-bottom: 2rem;
+        border-radius: 0 0 1rem 1rem;
+    }
+    .hero-content { max-width: 800px; text-align: center; }
+    .lead-text { font-size: 1.3rem; color: #5a6b7c; margin-top: 1.5rem; }
+    
+    .hero-buttons { display: flex; gap: 1rem; justify-content: center; margin-top: 2rem; flex-wrap: wrap;}
+    .btn-primary, .btn-secondary {
+        padding: 0.8rem 2rem;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        display: inline-block;
+    }
+    .btn-primary { background-color: var(--text-color); color: #fff; }
+    .btn-secondary { background-color: transparent; border: 2px solid var(--text-color); color: var(--text-color); }
+    .btn-primary:hover, .btn-secondary:hover { transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+
+    /* Content Area */
+    .content-area { padding-bottom: 4rem; }
+    
+    /* FAQ Section */
+    .faq-section { background-color: #fff; border-radius: 0.5rem; padding: 2rem; margin-top: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+    .faq-item { margin-bottom: 1.5rem; border-bottom: 1px solid #eee; padding-bottom: 1rem; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-item h3 { margin-bottom: 0.5rem; }
+
+    /* Footer */
+    .footer-section { background-color: var(--text-color); color: #fff; padding: 4rem 0; margin-top: 2rem; }
+    .footer-content h3 { color: #fff; border-bottom-color: #fff; }
+    .footer-content p { color: rgba(255,255,255,0.7); font-size: 0.9rem; }
+
+    /* Utility */
+    ul { list-style-type: none; margin-bottom: 1rem; }
+    ul li { position: relative; padding-left: 1.5rem; margin-bottom: 0.5rem; color: #4a5a6a; }
+    ul li::before { content: "•"; color: var(--accent-color); font-weight: bold; position: absolute; left: 0; top: 0; }
+
+</style>
+
 </body>
 </html>
